@@ -10,7 +10,7 @@ namespace dotnetcore_sample
     public class Program
     {
         public static void Main(string[] args)
-        { // test
+        { // test develop 2
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
