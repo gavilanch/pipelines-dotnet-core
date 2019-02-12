@@ -15,7 +15,7 @@ namespace dotnetcore_sample
     public class Startup
     {
         public Startup(IHostingEnvironment env)
-        {
+        { //test from develop
             string assemblyFolder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             string appSettingsFilePath = Path.Combine(assemblyFolder,"appsettings.json");
 
